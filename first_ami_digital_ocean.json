@@ -2,8 +2,8 @@
   "builders": [
     {
       "type": "digitalocean",
-      "api_token": "your-digitalocean-api-token",
-      "image_name": "my-custom-image",
+      "api_token": "dop_v1_4effc8c479b83fd03bb8c09af71c65c542ca784ca88054ca2dbb695b4c0f40af",
+      "image": "ubuntu-23-10-x64",
       "region": "nyc1",
       "size": "s-1vcpu-1gb",
       "ssh_username": "root"
