@@ -6,7 +6,8 @@
       "image": "ubuntu-23-10-x64",
       "region": "nyc1",
       "size": "s-1vcpu-1gb",
-      "ssh_username": "root"
+      "ssh_username": "root",
+      "project_id": "packer_test"
     }
   ],
   "provisioners": [
