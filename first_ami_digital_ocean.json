@@ -5,7 +5,7 @@
     "builders": [
     {
       "type": "digitalocean",
-      "api_token": "YOUR_DIGITALOCEAN_API_TOKEN",
+      "api_token": "my_token",
       "image": "ubuntu-23-10-x64",
       "region": "nyc1",
       "size": "s-1vcpu-1gb",
