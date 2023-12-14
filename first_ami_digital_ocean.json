@@ -1,0 +1,18 @@
+{
+  "builders": [
+    {
+      "type": "digitalocean",
+      "api_token": "your-digitalocean-api-token",
+      "image_name": "my-custom-image",
+      "region": "nyc1",
+      "size": "s-1vcpu-1gb",
+      "ssh_username": "root"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "script": "scripts/provision.sh"
+    }
+  ]
+}
